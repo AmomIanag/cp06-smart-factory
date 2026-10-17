@@ -17,7 +17,7 @@ Protótipo de monitoramento de temperatura e umidade de uma fábrica inteligente
 ## Links obrigatórios
 
 - **Simulação Wokwi:** https://wokwi.com/projects/478082331762477057
-- **Vídeo de demonstração no YouTube (Não listado):** **PENDENTE — inserir o link antes de entregar.**
+- **Vídeo de demonstração no YouTube (Não listado):** https://youtu.be/L2ibB9HUp0Y
 
 > **Atenção:** antes da entrega, verifique os dois links em uma janela anônima e confirme que o repositório GitHub está público. Links ausentes ou inacessíveis invalidam a atividade.
 
