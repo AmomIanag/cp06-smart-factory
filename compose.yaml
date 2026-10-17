@@ -1,0 +1,29 @@
+services:
+
+  # Servico da API Flask
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+
+    ports:
+      - "5000:5000"
+
+    restart: unless-stopped
+
+  # Servico do dashboard Flask
+  dashboard:
+    build:
+      context: ./dashboard
+      dockerfile: Dockerfile
+
+    ports:
+      - "5001:5001"
+
+    environment:
+      API_URL: "http://api:5000/dados"
+
+    depends_on:
+      - api
+
+    restart: unless-stopped
